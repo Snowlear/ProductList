@@ -1,0 +1,35 @@
+.Outlay {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.LikeBar {
+    padding-left: 10px;
+    background-color: white;
+    width: 150px;
+    font-weight: 500;
+}
+
+.LikeButton {
+    margin: 5px;
+    font-size: 16px;
+    border: 0px solid white;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 51px;
+    font-weight: 500;
+}
+
+.LikeButton:hover {
+    border: 2px solid black;
+}
+
+.LikeLogo {
+    float: left;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}

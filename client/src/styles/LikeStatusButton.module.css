@@ -1,0 +1,35 @@
+.button {
+    position: absolute;
+    right: 10px;
+    height: 40px;
+    width: 40px;
+    border: 0px solid grey;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 4px;
+    transition: filter .5s ease-in-out;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+.button:hover {
+    -webkit-filter: grayscale(0%);
+    /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%);
+    /* FF 35+ */
+}
+
+.gray {
+    -webkit-filter: grayscale(100%);
+    /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%);
+    /* FF 35+ */
+}
+
+.liked {
+    border: 1px solid red;
+}

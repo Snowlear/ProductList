@@ -1,0 +1,17 @@
+html, body {
+  background-color: rgb(224, 224, 224);
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', Arial;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

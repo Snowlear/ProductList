@@ -1,0 +1,46 @@
+.productCard {
+    height: 420px;
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.productCard p {
+    margin: 0px;
+}
+
+.productImage {
+    width: 100%;
+    height: 280px;
+}
+
+.priceTag {
+    background-color: rgb(236, 236, 236);
+    color: rgb(88, 88, 88);
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.productName{
+    padding-left: 6px;
+    height: 38px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.shipmentTag{
+    margin-top: 6px;
+    margin-left: 6px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+}
